@@ -111,6 +111,60 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; c
 .btn-download { display: block; background: #f8f9fa; color: #2c3e50; border: 1px solid #dee2e6; padding: 10px; border-radius: 6px; text-decoration: none; margin-bottom: 10px; font-size: 0.9rem; transition: 0.2s; text-align: center; }
 .btn-download:hover { background: #e9ecef; border-color: #cbd3da; }
 
+/* =========================================
+   時間軸與 Slider 專屬樣式
+========================================= */
+.timeline-section { text-align: center; padding: 2rem 0; }
+.timeline-section h2 { color: #2c3e50; font-size: 2rem; margin-bottom: 0.5rem; }
+.instruction { color: #7f8c8d; margin-bottom: 2rem; }
+.timeline-container { position: relative; padding: 1rem 0; max-width: 600px; margin: 0 auto; }
+#year-display { font-size: 3rem; font-weight: 800; color: #1e3c72; margin-bottom: 1.5rem; }
+
+/* 拖曳控制條外觀 */
+.slider { 
+    width: 100%; 
+    -webkit-appearance: none; 
+    appearance: none;
+    height: 10px; 
+    border-radius: 5px; 
+    background: #dfe6e9; 
+    outline: none; 
+}
+.slider::-webkit-slider-thumb { 
+    -webkit-appearance: none; 
+    appearance: none; 
+    width: 28px; 
+    height: 28px; 
+    border-radius: 50%; 
+    background: #2a5298; 
+    cursor: pointer; 
+    border: 4px solid white; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3); 
+}
+.slider::-moz-range-thumb {
+    width: 28px; 
+    height: 28px; 
+    border-radius: 50%; 
+    background: #2a5298; 
+    cursor: pointer; 
+    border: 4px solid white; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* 時間軸 Popup 視窗 */
+.popup { 
+    background: white; 
+    border-top: 5px solid #2a5298; 
+    padding: 1.5rem; 
+    border-radius: 8px; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+    margin-top: 2.5rem; 
+    min-height: 130px; 
+    text-align: left; 
+}
+.popup h3 { color: #2c3e50; margin-bottom: 0.5rem; font-size: 1.3rem; }
+.popup p { color: #555; }
+
 /* 響應式：手機版改為單欄垂直排列 */
 @media (max-width: 800px) {
     .detail-container { flex-direction: column; }
