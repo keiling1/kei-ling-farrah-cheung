@@ -33,30 +33,12 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; c
     color: #bdc3c7; 
     text-decoration: none; 
     transition: 0.3s; 
-    /* 注意：移除了原本的 margin-left，改用父層的 gap 控制 */
 }
 .nav-links a:hover, .nav-links a.active { 
     color: #fff; 
     font-weight: 600; 
 }
-/* .lang-switch a { 
-    display: flex; 
-    align-items: center; 
-    gap: 6px; 
-    border: 1px solid rgba(255,255,255,0.4); 
-    padding: 6px 14px; 
-    border-radius: 20px; 
-    color: white; 
-    text-decoration: none; 
-    font-size: 0.85rem; 
-    font-weight: 500;
-    transition: all 0.3s ease; 
-}
-.lang-switch a:hover { 
-    background: white; 
-    color: #2c3e50; 
-    border-color: white; 
-} */
+
 .lang-switch a { 
     color: #bdc3c7; 
     text-decoration: none; 
