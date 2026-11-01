@@ -39,7 +39,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; c
     color: #fff; 
     font-weight: 600; 
 }
-.lang-switch a { 
+/* .lang-switch a { 
     display: flex; 
     align-items: center; 
     gap: 6px; 
@@ -56,8 +56,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; c
     background: white; 
     color: #2c3e50; 
     border-color: white; 
-}
-/* .lang-switch a { 
+} */
+.lang-switch a { 
     color: #bdc3c7; 
     text-decoration: none; 
     font-size: 0.9rem; 
@@ -69,7 +69,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; c
 .lang-switch a:hover { 
     color: #fff; 
     text-shadow: 0 0 8px rgba(255,255,255,0.4);
-} */
+}
 
 /* 共用內容區與卡片 */
 .content-container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; flex: 1; width: 100%; }
