@@ -152,3 +152,4 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; c
     .detail-container { flex-direction: column; }
     .detail-sidebar { width: 100%; position: static; }
 }
+
