@@ -11,7 +11,7 @@ portfolio/
 │   ├── education.html       (中文學歷總覽頁)
 │   ├── work/                (中文工作詳細頁面)
 │   │   ├── afcd.html
-│   │   └── ocean-park.html
+│   │   └── ophk.html
 │   └── edu/                 (中文學歷詳細頁面)
 │       ├── ntu.html
 │       ├── hku.html
@@ -19,7 +19,7 @@ portfolio/
 │
 ├── work/                    (英文工作詳細頁面)
 │   ├── afcd.html            (AFCD 經驗詳細介紹)
-│   └── ocean-park.html      (海洋公園經驗詳細介紹)
+│   └── ophk.html      (海洋公園經驗詳細介紹)
 │
 ├── edu/                     (英文學歷詳細頁面)
 │   ├── ntu.html             (台大碩士詳細介紹)
