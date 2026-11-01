@@ -7,8 +7,37 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; c
 .nav-brand { font-weight: 700; font-size: 1.2rem; }
 .nav-links a { color: #bdc3c7; text-decoration: none; margin-left: 1.5rem; transition: 0.3s; }
 .nav-links a:hover, .nav-links a.active { color: #fff; font-weight: 600; }
-.lang-switch a { background: rgba(255,255,255,0.1); padding: 5px 12px; border-radius: 15px; color: white; text-decoration: none; font-size: 0.85rem; transition: 0.3s; }
-.lang-switch a:hover { background: rgba(255,255,255,0.3); }
+.lang-switch a { 
+    display: flex; 
+    align-items: center; 
+    gap: 6px; 
+    border: 1px solid rgba(255,255,255,0.4); 
+    padding: 6px 14px; 
+    border-radius: 20px; 
+    color: white; 
+    text-decoration: none; 
+    font-size: 0.85rem; 
+    font-weight: 500;
+    transition: all 0.3s ease; 
+}
+.lang-switch a:hover { 
+    background: white; 
+    color: #2c3e50; 
+    border-color: white; 
+}
+/* .lang-switch a { 
+    color: #bdc3c7; 
+    text-decoration: none; 
+    font-size: 0.9rem; 
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 6px 10px;
+    transition: color 0.3s; 
+}
+.lang-switch a:hover { 
+    color: #fff; 
+    text-shadow: 0 0 8px rgba(255,255,255,0.4);
+} */
 
 /* 共用內容區與卡片 */
 .content-container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; flex: 1; width: 100%; }
