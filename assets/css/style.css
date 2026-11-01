@@ -3,10 +3,42 @@
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #333; background-color: #f4f6f8; line-height: 1.6; display: flex; flex-direction: column; min-height: 100vh; }
 
 /* 導覽列與語言切換 */
-.navbar { display: flex; justify-content: space-between; align-items: center; background: #2c3e50; padding: 1rem 2rem; color: white; position: sticky; top: 0; z-index: 100; }
+/* 導覽列容器維持左右對齊 (Space-between) */
+.navbar { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background: #2c3e50; 
+    padding: 1rem 2rem; 
+    color: white; 
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+}
 .nav-brand { font-weight: 700; font-size: 1.2rem; }
-.nav-links a { color: #bdc3c7; text-decoration: none; margin-left: 1.5rem; transition: 0.3s; }
-.nav-links a:hover, .nav-links a.active { color: #fff; font-weight: 600; }
+
+/* 右側群組設定：讓選單和按鈕水平排列並保持間距 */
+.nav-right { 
+    display: flex; 
+    align-items: center; 
+    gap: 2rem; /* 選單與語言按鈕之間的距離 */
+}
+
+/* 選單選項設定 */
+.nav-links {
+    display: flex;
+    gap: 1.5rem; /* 各個選單選項之間的距離 */
+}
+.nav-links a { 
+    color: #bdc3c7; 
+    text-decoration: none; 
+    transition: 0.3s; 
+    /* 注意：移除了原本的 margin-left，改用父層的 gap 控制 */
+}
+.nav-links a:hover, .nav-links a.active { 
+    color: #fff; 
+    font-weight: 600; 
+}
 .lang-switch a { 
     display: flex; 
     align-items: center; 
